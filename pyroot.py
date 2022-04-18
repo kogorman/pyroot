@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # Compute unlimited-length arithmetic roots of numbers
 
-# Last Modified: Sun Apr 17 09:07:24 PDT 2022
+# Last Modified: Mon Apr 18 11:08:07 PDT 2022
 
+# Copyright (C) 2022 Kevin O'Gorman
+ 
 # pyroot is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 2 of the License, or
@@ -14,7 +16,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with nautilus-dropbox.  If not, see <http://www.gnu.org/licenses/>.
+# along with pyroot.  If not, see <http://www.gnu.org/licenses/>.
 #
 
 from numpy.polynomial import polynomial as P
