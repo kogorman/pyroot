@@ -5,7 +5,7 @@ This is an expansion of the method taught in grade-school for extracting square 
 
 There is a main program which prompts for function arguments, and a function extractroot(snum, sroot, fraction_digits) which accepts a string or int as the snum, a positive int as root, and an optional non-negative int as the number of fraction digits (defaults to None, meaning no fraction digits produced, and none allowed in the input).
 
-The method develops a perfect power (think square) at each step, each of which square is the largest one no bigger than the value of the digits being considered in that step.  These get larger and larger and closer to the function argument as more digits are considered until the desired accuracy is achieved.  The base of that perfect power is the answer provided by the function.
+The method develops a perfect power (think square) at each step, each of which power is the largest one no bigger than the value of the digits being considered in that step.  These get larger and larger and closer to the function argument as more digits are considered until the desired accuracy is achieved.  The base of that perfect power is the answer provided by the function.
 
 At each step, the algorithm uses a previous perfect power developed in the previous step (0 for the first step) by using it's base, called A.  It then adds digits to the target, and tries to find a B in ((10\*\*n)*A + B) that when raised to the power required forms the best perfect power for the larger target.  B will simply be one of the 10 possible digits. 
 
